@@ -34,4 +34,15 @@
     background-position: center center;
     background-size: contain;
   }
+
+  .description {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+  }
 }

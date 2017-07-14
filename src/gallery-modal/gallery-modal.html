@@ -18,6 +18,9 @@
         (enableScroll)="enableScroll($event)"
         [parentSubject]="parentSubject"
       ></zoomable-image>
+      <div class="description" *ngIf="photo.description">
+        {{ photo.description }}
+      </div>
     </ion-slide>
   </ion-slides>
 </ion-content>
